@@ -6,3 +6,9 @@
   left: 0;
   bottom: 0;
 }
+
+@media (max-width: 950px) {
+  .background {
+    display: none;
+  }
+}

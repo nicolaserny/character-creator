@@ -10,15 +10,12 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
-  white-space: nowrap;
-  overflow-x: auto;
 }
 
 .title {
   margin: 0;
   /* Optical centering */
   margin-bottom: -4px;
-  position: sticky;
   left: 0;
 }
 
@@ -27,4 +24,13 @@
   font-size: 0.875rem;
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
+}
+
+@media (max-width: 950px) {
+  .controlPane {
+    width: 90%;
+    max-width: 500px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }

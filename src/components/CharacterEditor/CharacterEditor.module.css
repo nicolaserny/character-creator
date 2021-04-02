@@ -36,3 +36,25 @@
 .controlColumn {
   width: 50%;
 }
+
+@media (max-width: 950px) {
+  .controlColumn {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    top: 60%;
+    left: 0;
+    z-index: 2;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .header {
+    display: none;
+  }
+  .characterWrapper {
+    top: 5%;
+    left: 0;
+    height: 100%;
+  }
+}
